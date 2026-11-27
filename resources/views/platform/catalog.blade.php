@@ -1,0 +1,1 @@
+<x-layout title="Ontdek koffie"><div class="page-heading container"><span class="eyebrow">VIND JOUW VOLGENDE FAVORIET</span><h1>Er zit meer in je kop.</h1><p>Van bloemig en fris tot vol en chocoladeachtig. Ontdek wat bij jou past.</p></div><livewire:catalog/></x-layout>

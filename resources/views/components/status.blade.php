@@ -1,0 +1,3 @@
+@props(['value'])
+@php($labels=['pending'=>'In behandeling','paid'=>'Betaald (demo)','failed'=>'Mislukt','cancelled'=>'Geannuleerd','expired'=>'Reservering verlopen','awaiting_payment'=>'Wacht op betaling','sent_to_roaster'=>'Naar demo-roaster','transfer_failed'=>'Overdracht mislukt','accepted'=>'Geaccepteerd','shipped'=>'Verzonden (demo)','delivered'=>'Geleverd (demo)','not_started'=>'Nog niet gestart','preparing'=>'In voorbereiding'])
+<span class="status status-{{ $value }}">{{ $labels[$value]??$value }}</span>

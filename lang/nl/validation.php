@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'required' => 'Vul :attribute in.',
+    'string' => ':Attribute moet tekst bevatten.',
+    'email' => 'Vul een geldig e-mailadres in.',
+    'unique' => 'Deze :attribute is al in gebruik.',
+    'exists' => 'De gekozen :attribute bestaat niet.',
+    'confirmed' => 'De bevestiging van :attribute komt niet overeen.',
+    'integer' => ':Attribute moet een geheel getal zijn.',
+    'numeric' => ':Attribute moet een getal zijn.',
+    'boolean' => ':Attribute moet ja of nee zijn.',
+    'uuid' => 'De bestelsleutel is ongeldig. Vernieuw de pagina.',
+    'date' => 'Vul een geldige datum in bij :attribute.',
+    'before_or_equal' => ':Attribute mag niet na :date liggen.',
+    'regex' => 'Vul een geldige :attribute in.',
+    'in' => 'Kies een geldige waarde voor :attribute.',
+    'hex_color' => 'Kies een geldige kleur.',
+    'alpha_dash' => ':Attribute mag alleen letters, cijfers en streepjes bevatten.',
+    'lowercase' => 'Gebruik kleine letters voor :attribute.',
+    'min' => ['numeric' => ':Attribute moet minimaal :min zijn.', 'string' => ':Attribute moet minimaal :min tekens bevatten.'],
+    'max' => ['numeric' => ':Attribute mag maximaal :max zijn.', 'string' => ':Attribute mag maximaal :max tekens bevatten.'],
+    'between' => ['numeric' => ':Attribute moet tussen :min en :max liggen.'],
+    'attributes' => ['name' => 'naam', 'email' => 'e-mailadres', 'password' => 'wachtwoord', 'password_confirmation' => 'wachtwoordbevestiging', 'street' => 'straat en huisnummer', 'postcode' => 'postcode', 'city' => 'plaats', 'title' => 'titel', 'coffee_id' => 'koffie', 'roaster_id' => 'roaster', 'method' => 'zetmethode', 'dose' => 'dosering', 'water' => 'water of drankgewicht', 'temperature' => 'temperatuur', 'seconds' => 'zetduur', 'grinder' => 'molenmodel', 'grind' => 'maalstand', 'steps' => 'stappen', 'body' => 'reviewtekst', 'rating' => 'beoordeling', 'reason' => 'reden', 'stock' => 'voorraad', 'price_cents' => 'prijs in centen', 'roasted_at' => 'branddatum', 'max_roast_days' => 'maximale brandleeftijd', 'slug' => 'URL-naam', 'notes_text' => 'smaaknotities', 'description' => 'beschrijving', 'story' => 'verhaal', 'shipping_policy' => 'verzendbeleid'],
+];
